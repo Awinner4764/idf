@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>International Diplomacy Forum</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center bg-blue-900 text-white text-center">
+    <h1 class="text-5xl font-bold mb-4">International Diplomacy Forum 2025</h1>
+    <p class="text-xl">Experience Diplomacy Like Never Before</p>
+    <a href="#register" class="mt-8 px-6 py-3 bg-white text-blue-900 rounded hover:bg-blue-100">Register Now</a>
+  </section>
+
+  <!-- About Section -->
+  <section class="p-8 max-w-4xl mx-auto text-center" id="about">
+    <h2 class="text-3xl font-bold mb-4">About IDF</h2>
+    <p>IDF is a premier Model United Nations conference fostering leadership, diplomacy, and global understanding.</p>
+  </section>
+
+  <!-- Register Section -->
+  <section class="p-8 max-w-xl mx-auto" id="register">
+    <h2 class="text-2xl font-bold mb-4 text-center">Register</h2>
+    <form id="registrationForm" class="space-y-4">
+      <input type="text" name="name" placeholder="Full Name" required class="w-full p-2 border rounded" />
+      <input type="email" name="email" placeholder="Email Address" required class="w-full p-2 border rounded" />
+      <textarea name="message" placeholder="Message" class="w-full p-2 border rounded"></textarea>
+      <button type="submit" class="w-full bg-blue-900 text-white p-2 rounded hover:bg-blue-800">Submit</button>
+    </form>
+    <p id="formMessage" class="mt-4 text-center text-green-600 hidden">Thanks for registering!</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-6 bg-gray-100 mt-16">
+    <p>© 2025 International Diplomacy Forum. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
