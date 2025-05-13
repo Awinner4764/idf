@@ -8,7 +8,7 @@ document.getElementById("registrationForm").addEventListener("submit", async (e)
     message: form.message.value,
   };
 
-  const response = await fetch("https://international-diplomacy-forum-2025.netlify.app/", {
+  const response = await fetch("https://idf-1nni.onrender.com", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(data),
