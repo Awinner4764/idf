@@ -1,0 +1,32 @@
+/* Custom Tailwind Overrides */
+body {
+  background-color: #F7FAFC; /* Light gray background */
+  color: #2D3748; /* Dark gray text */
+}
+
+.hero-section {
+  background-color: #5A67D8; /* Indigo background */
+  color: white;
+}
+
+.button-primary {
+  background-color: #38B2AC; /* Teal button */
+  color: white;
+}
+
+.button-primary:hover {
+  background-color: #319795; /* Darker teal on hover */
+}
+
+.section-heading {
+  color: #5A67D8;
+}
+
+input, textarea {
+  border: 1px solid #CBD5E0;
+}
+
+input:focus, textarea:focus {
+  border-color: #5A67D8;
+  outline: none;
+}
