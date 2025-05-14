@@ -4,6 +4,11 @@ body {
   color: #2D3748; /* Dark gray text */
 }
 
+.navigation-bar {
+  background-color: #2B6CB0; /* Blue background */
+  color: white;
+}
+
 .hero-section {
   background-color: #5A67D8; /* Indigo background */
   color: white;
